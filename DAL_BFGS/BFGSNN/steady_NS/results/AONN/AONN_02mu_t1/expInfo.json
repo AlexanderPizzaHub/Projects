@@ -1,0 +1,18 @@
+{
+    "dataname":"1000points_01mu",
+    "expname":"AONN_02mu_t1",
+    "bw":100,
+    "dw":100,
+    "mu":0.2,
+    "out_iter":50,
+    "inner_iter":[
+        400,
+        400,
+        400
+    ],
+    "stepsize":1,
+    "decay_rate":1.0,
+    "lastvy":0.5088717279238365,
+    "lastvu":1.0472723181605852,
+    "walltime":440.7590820789337
+}

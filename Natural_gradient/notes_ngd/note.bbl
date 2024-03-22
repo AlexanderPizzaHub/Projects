@@ -1,0 +1,60 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{LKA{\etalchar{+}}20}
+
+\bibitem[Ama98]{amari1998natural}
+Shun-Ichi Amari.
+\newblock Natural gradient works efficiently in learning.
+\newblock {\em Neural computation}, 10(2):251--276, 1998.
+
+\bibitem[GSW21]{gao2021phygeonet}
+Han Gao, Luning Sun, and Jian-Xun Wang.
+\newblock Phygeonet: Physics-informed geometry-adaptive convolutional neural
+  networks for solving parameterized steady-state pdes on irregular domain.
+\newblock {\em Journal of Computational Physics}, 428:110079, 2021.
+
+\bibitem[GZW22]{gao2022physics}
+Han Gao, Matthew~J Zahr, and Jian-Xun Wang.
+\newblock Physics-informed graph neural galerkin networks: A unified framework
+  for solving pde-governed forward and inverse problems.
+\newblock {\em Computer Methods in Applied Mechanics and Engineering},
+  390:114502, 2022.
+
+\bibitem[LJK19]{lu2019deeponet}
+Lu~Lu, Pengzhan Jin, and George~Em Karniadakis.
+\newblock Deeponet: Learning nonlinear operators for identifying differential
+  equations based on the universal approximation theorem of operators.
+\newblock {\em arXiv preprint arXiv:1910.03193}, 2019.
+
+\bibitem[LKA{\etalchar{+}}20]{li2020fourier}
+Zongyi Li, Nikola Kovachki, Kamyar Azizzadenesheli, Burigede Liu, Kaushik
+  Bhattacharya, Andrew Stuart, and Anima Anandkumar.
+\newblock Fourier neural operator for parametric partial differential
+  equations.
+\newblock {\em arXiv preprint arXiv:2010.08895}, 2020.
+
+\bibitem[MBH22]{mojgani2022lagrangian}
+Rambod Mojgani, Maciej Balajewicz, and Pedram Hassanzadeh.
+\newblock Lagrangian pinns: A causality-conforming solution to failure modes of
+  physics-informed neural networks.
+\newblock {\em arXiv preprint arXiv:2205.02902}, 2022.
+
+\bibitem[RPK19]{raissi2019physics}
+Maziar Raissi, Paris Perdikaris, and George~E Karniadakis.
+\newblock Physics-informed neural networks: A deep learning framework for
+  solving forward and inverse problems involving nonlinear partial differential
+  equations.
+\newblock {\em Journal of Computational physics}, 378:686--707, 2019.
+
+\bibitem[SCH23]{son2023enhanced}
+Hwijae Son, Sung~Woong Cho, and Hyung~Ju Hwang.
+\newblock Enhanced physics-informed neural networks with augmented lagrangian
+  relaxation method (al-pinns).
+\newblock {\em Neurocomputing}, page 126424, 2023.
+
+\bibitem[Y{\etalchar{+}}18]{yu2018deep}
+Bing Yu et~al.
+\newblock The deep ritz method: a deep learning-based numerical algorithm for
+  solving variational problems.
+\newblock {\em Communications in Mathematics and Statistics}, 6(1):1--12, 2018.
+
+\end{thebibliography}

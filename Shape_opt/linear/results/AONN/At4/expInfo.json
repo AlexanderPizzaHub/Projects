@@ -1,0 +1,19 @@
+{
+    "dataname":"1500points",
+    "expname":"At4",
+    "bw":100,
+    "out_iter":20,
+    "inner_iter":[
+        1000,
+        1000,
+        1000
+    ],
+    "stepsize":10,
+    "decay_rate":1.0,
+    "timelist":[
+        63.29172611236572,
+        123.07508516311646
+    ],
+    "walltime":123.07508516311646,
+    "endouteriter":1
+}

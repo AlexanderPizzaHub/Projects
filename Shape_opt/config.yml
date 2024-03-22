@@ -1,0 +1,33 @@
+linear:
+  datagen:
+    dataname: 1500points_oval
+    N: 1500
+    Nb: 500
+
+  AONN:
+    dataname: 1500points_oval
+    expname: At6
+
+    bw: 100
+    out_iter: 20
+    inner_iter: [1000,1000,1000]
+    stepsize: 0.2
+    decay_rate: 1.0
+
+
+
+
+NS:
+  datagen:
+    dataname: 4000points_concave
+    N: 4000
+
+  AONN:
+    dataname: 4000points_concave
+    expname: At2
+
+    bw: 100
+    out_iter: 20
+    inner_iter: [3000,3000,5000]
+    stepsize: 0.1
+    decay_rate: 1.0

@@ -1,0 +1,397 @@
+%%%%%%%%%%%%%%%% NN-based PDE solvers %%%%%%%%%%%%%%%%%
+% Data-driven solvers for PDE
+@article{chen2023deep,
+  title={Deep-OSG: A deep learning approach for approximating a family of operators in semigroup to model unknown autonomous systems},
+  author={Chen, Junfeng and Wu, Kailiang},
+  journal={arXiv preprint arXiv:2302.03358},
+  year={2023}
+}
+
+
+% Standard PINN solvers
+@article{raissi2019physics,
+  title={Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations},
+  author={Raissi, Maziar and Perdikaris, Paris and Karniadakis, George E},
+  journal={Journal of Computational physics},
+  volume={378},
+  pages={686--707},
+  year={2019},
+  publisher={Elsevier}
+}
+
+
+
+
+% Variant of PINN solvers
+%% CNN
+@article{gao2021phygeonet,
+  title={PhyGeoNet: Physics-informed geometry-adaptive convolutional neural networks for solving parameterized steady-state PDEs on irregular domain},
+  author={Gao, Han and Sun, Luning and Wang, Jian-Xun},
+  journal={Journal of Computational Physics},
+  volume={428},
+  pages={110079},
+  year={2021},
+  publisher={Elsevier}
+}
+
+%% GNN
+@article{gao2022physics,
+  title={Physics-informed graph neural Galerkin networks: A unified framework for solving PDE-governed forward and inverse problems},
+  author={Gao, Han and Zahr, Matthew J and Wang, Jian-Xun},
+  journal={Computer Methods in Applied Mechanics and Engineering},
+  volume={390},
+  pages={114502},
+  year={2022},
+  publisher={Elsevier}
+}
+
+%% PINN but using LM or ALM instead of penalty
+@article{mojgani2022lagrangian,
+  title={Lagrangian pinns: A causality-conforming solution to failure modes of physics-informed neural networks},
+  author={Mojgani, Rambod and Balajewicz, Maciej and Hassanzadeh, Pedram},
+  journal={arXiv preprint arXiv:2205.02902},
+  year={2022}
+}
+
+@article{son2023enhanced,
+  title={Enhanced Physics-Informed Neural Networks with Augmented Lagrangian Relaxation Method (AL-PINNs)},
+  author={Son, Hwijae and Cho, Sung Woong and Hwang, Hyung Ju},
+  journal={Neurocomputing},
+  pages={126424},
+  year={2023},
+  publisher={Elsevier}
+}
+
+%% PINN with adaptive sampling
+@article{gao2023failure,
+  title={Failure-informed adaptive sampling for PINNs},
+  author={Gao, Zhiwei and Yan, Liang and Zhou, Tao},
+  journal={SIAM Journal on Scientific Computing},
+  volume={45},
+  number={4},
+  pages={A1971--A1994},
+  year={2023},
+  publisher={SIAM}
+}
+
+@article{wu2023comprehensive,
+  title={A comprehensive study of non-adaptive and residual-based adaptive sampling for physics-informed neural networks},
+  author={Wu, Chenxi and Zhu, Min and Tan, Qinyang and Kartha, Yadhu and Lu, Lu},
+  journal={Computer Methods in Applied Mechanics and Engineering},
+  volume={403},
+  pages={115671},
+  year={2023},
+  publisher={Elsevier}
+}
+
+@article{zeng2022adaptive,
+  title={Adaptive deep neural networks methods for high-dimensional partial differential equations},
+  author={Zeng, Shaojie and Zhang, Zong and Zou, Qingsong},
+  journal={Journal of Computational Physics},
+  volume={463},
+  pages={111232},
+  year={2022},
+  publisher={Elsevier}
+}
+
+%% PINN with domain decomposition
+@inproceedings{jagtap2021extended,
+  title={Extended Physics-informed Neural Networks (XPINNs): A Generalized Space-Time Domain Decomposition based Deep Learning Framework for Nonlinear Partial Differential Equations.},
+  author={Jagtap, Ameya D and Karniadakis, George E},
+  booktitle={AAAI spring symposium: MLPS},
+  volume={10},
+  year={2021}
+}
+
+%% PINN with hard-constraints by architecture
+@article{lu2021physics,
+  title={Physics-informed neural networks with hard constraints for inverse design},
+  author={Lu, Lu and Pestourie, Raphael and Yao, Wenjie and Wang, Zhicheng and Verdugo, Francesc and Johnson, Steven G},
+  journal={SIAM Journal on Scientific Computing},
+  volume={43},
+  number={6},
+  pages={B1105--B1132},
+  year={2021},
+  publisher={SIAM}
+}
+
+
+
+% DRM solvers
+@article{yu2018deep,
+  title={The deep Ritz method: a deep learning-based numerical algorithm for solving variational problems},
+  author={Yu, Bing and others},
+  journal={Communications in Mathematics and Statistics},
+  volume={6},
+  number={1},
+  pages={1--12},
+  year={2018},
+  publisher={Springer}
+}
+
+% Weak PINN
+@article{zang2020weak,
+  title={Weak adversarial networks for high-dimensional partial differential equations},
+  author={Zang, Yaohua and Bao, Gang and Ye, Xiaojing and Zhou, Haomin},
+  journal={Journal of Computational Physics},
+  volume={411},
+  pages={109409},
+  year={2020},
+  publisher={Elsevier}
+}
+
+% Comparison of PINN and FEM
+@article{grossmann2023can,
+  title={Can physics-informed neural networks beat the finite element method?},
+  author={Grossmann, Tamara G and Komorowska, Urszula Julia and Latz, Jonas and Sch{\"o}nlieb, Carola-Bibiane},
+  journal={arXiv preprint arXiv:2302.04107},
+  year={2023}
+}
+
+% Describing the failure of PINN
+%% Auto adjusting penalty weight to take consider of the condition of problem
+@article{wang2021understanding,
+  title={Understanding and mitigating gradient flow pathologies in physics-informed neural networks},
+  author={Wang, Sifan and Teng, Yujun and Perdikaris, Paris},
+  journal={SIAM Journal on Scientific Computing},
+  volume={43},
+  number={5},
+  pages={A3055--A3081},
+  year={2021},
+  publisher={SIAM}
+}
+
+%% NTK analysis
+@article{wang2022and,
+  title={When and why PINNs fail to train: A neural tangent kernel perspective},
+  author={Wang, Sifan and Yu, Xinling and Perdikaris, Paris},
+  journal={Journal of Computational Physics},
+  volume={449},
+  pages={110768},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@article{krishnapriyan2021characterizing,
+  title={Characterizing possible failure modes in physics-informed neural networks},
+  author={Krishnapriyan, Aditi and Gholami, Amir and Zhe, Shandian and Kirby, Robert and Mahoney, Michael W},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={26548--26560},
+  year={2021}
+}
+
+
+% Neural operator solvers for PDE
+@article{li2020fourier,
+  title={Fourier neural operator for parametric partial differential equations},
+  author={Li, Zongyi and Kovachki, Nikola and Azizzadenesheli, Kamyar and Liu, Burigede and Bhattacharya, Kaushik and Stuart, Andrew and Anandkumar, Anima},
+  journal={arXiv preprint arXiv:2010.08895},
+  year={2020}
+}
+
+@article{lu2019deeponet,
+  title={Deeponet: Learning nonlinear operators for identifying differential equations based on the universal approximation theorem of operators},
+  author={Lu, Lu and Jin, Pengzhan and Karniadakis, George Em},
+  journal={arXiv preprint arXiv:1910.03193},
+  year={2019}
+}
+
+
+% Neural Galerkin scheme
+@article{du2021evolutional,
+  title={Evolutional deep neural network},
+  author={Du, Yifan and Zaki, Tamer A},
+  journal={Physical Review E},
+  volume={104},
+  number={4},
+  pages={045303},
+  year={2021},
+  publisher={APS}
+}
+
+@article{gaby2023neural,
+  title={Neural Control of Parametric Solutions for High-dimensional Evolution PDEs},
+  author={Gaby, Nathan and Ye, Xiaojing and Zhou, Haomin},
+  journal={arXiv preprint arXiv:2302.00045},
+  year={2023}
+}
+
+@article{bruna2024neural,
+  title={Neural Galerkin schemes with active learning for high-dimensional evolution equations},
+  author={Bruna, Joan and Peherstorfer, Benjamin and Vanden-Eijnden, Eric},
+  journal={Journal of Computational Physics},
+  volume={496},
+  pages={112588},
+  year={2024},
+  publisher={Elsevier}
+}
+
+
+% PDE-constrained optimization (Mostly OCP) by PINN or NO
+@article{glowinski2022application,
+  title={Application of the alternating direction method of multipliers to control constrained parabolic optimal control problems and beyond},
+  author={Glowinski, Roland and Song, Yongcun and Yuan, Xiaoming and Yue, Hangrui},
+  journal={Ann. Appl. Math},
+  volume={38},
+  number={2},
+  pages={115--158},
+  year={2022}
+}
+
+
+@article{song2023accelerated,
+  title={Accelerated primal-dual methods with enlarged step sizes and operator learning for nonsmooth optimal control problems},
+  author={Song, Yongcun and Yuan, Xiaoming and Yue, Hangrui},
+  journal={arXiv preprint arXiv:2307.00296},
+  year={2023}
+}
+
+@article{yin2023aonn,
+  title={AONN: An adjoint-oriented neural network method for all-at-once solutions of parametric optimal control problems},
+  author={Yin, Pengfei and Xiao, Guangqiang and Tang, Kejun and Yang, Chao},
+  journal={arXiv preprint arXiv:2302.02076},
+  year={2023}
+}
+
+@article{mowlavi2023optimal,
+  title={Optimal control of PDEs using physics-informed neural networks},
+  author={Mowlavi, Saviz and Nabi, Saleh},
+  journal={Journal of Computational Physics},
+  volume={473},
+  pages={111731},
+  year={2023},
+  publisher={Elsevier}
+}
+
+@misc{SongYuan:2023,
+    author = {Song, Yongcun and Yuan, XIaoming and Yue, Hangrui},
+    title = {The {ADMM-PINNs} algorithmic framework for nonsmooth {PDE}-constrained optimization: a deep learning approach}, 
+    year = {2023},
+    howpublished = {Preprint, arXiv:2302.08309},
+}
+
+@article{lu2021physics,
+  title={Physics-informed neural networks with hard constraints for inverse design},
+  author={Lu, Lu and Pestourie, Raphael and Yao, Wenjie and Wang, Zhicheng and Verdugo, Francesc and Johnson, Steven G},
+  journal={SIAM Journal on Scientific Computing},
+  volume={43},
+  number={6},
+  pages={B1105--B1132},
+  year={2021},
+  publisher={SIAM}
+}
+
+@article{wang2023aonn,
+  title={AONN-2: An adjoint-oriented neural network method for PDE-constrained shape optimization},
+  author={Wang, Xili and Yin, Pengfei and Zhang, Bo and Yang, Chao},
+  journal={arXiv preprint arXiv:2309.08388},
+  year={2023}
+}
+
+
+
+%%%%%%%%%%%%% OPTIMIZATION %%%%%%%%%%%%
+
+% Survey of optimization algorithms for general NN-related problem
+@article{abdulkadirov2023survey,
+  title={Survey of Optimization Algorithms in Modern Neural Networks},
+  author={Abdulkadirov, Ruslan and Lyakhov, Pavel and Nagornov, Nikolay},
+  journal={Mathematics},
+  volume={11},
+  number={11},
+  pages={2466},
+  year={2023},
+  publisher={MDPI}
+}
+
+% Natural gradient
+@article{amari1998natural,
+  title={Natural gradient works efficiently in learning},
+  author={Amari, Shun-Ichi},
+  journal={Neural computation},
+  volume={10},
+  number={2},
+  pages={251--276},
+  year={1998},
+  publisher={MIT Press}
+}
+
+@article{martens2020new,
+  title={New insights and perspectives on the natural gradient method},
+  author={Martens, James},
+  journal={The Journal of Machine Learning Research},
+  volume={21},
+  number={1},
+  pages={5776--5851},
+  year={2020},
+  publisher={JMLRORG}
+}
+
+@inproceedings{muller2023achieving,
+  title={Achieving high accuracy with PINNs via energy natural gradient descent},
+  author={M{\"u}ller, Johannes and Zeinhofer, Marius},
+  booktitle={International Conference on Machine Learning},
+  pages={25471--25485},
+  year={2023},
+  organization={PMLR}
+}
+
+@article{nurbekyan2023efficient,
+  title={Efficient natural gradient descent methods for large-scale PDE-based optimization problems},
+  author={Nurbekyan, Levon and Lei, Wanzhou and Yang, Yunan},
+  journal={SIAM Journal on Scientific Computing},
+  volume={45},
+  number={4},
+  pages={A1621--A1655},
+  year={2023},
+  publisher={SIAM}
+}
+
+
+% Connection of NGD with other methods
+@inproceedings{gunasekar2021mirrorless,
+  title={Mirrorless mirror descent: A natural derivation of mirror descent},
+  author={Gunasekar, Suriya and Woodworth, Blake and Srebro, Nathan},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={2305--2313},
+  year={2021},
+  organization={PMLR}
+}
+
+% Common optimizers
+@article{kingma2014adam,
+  title={Adam: A method for stochastic optimization},
+  author={Kingma, Diederik P and Ba, Jimmy},
+  journal={arXiv preprint arXiv:1412.6980},
+  year={2014}
+}
+
+
+% Optimal control application
+@article{munters2017optimal,
+  title={An optimal control framework for dynamic induction control of wind farms and their interaction with the atmospheric boundary layer},
+  author={Munters, Wim and Meyers, Johan},
+  journal={Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+  volume={375},
+  number={2091},
+  pages={20160100},
+  year={2017},
+  publisher={The Royal Society Publishing}
+}
+
+
+
+% Others
+@article{guo2022transformer,
+  title={Transformer meets boundary value inverse problems},
+  author={Guo, Ruchi and Cao, Shuhao and Chen, Long},
+  journal={arXiv preprint arXiv:2209.14977},
+  year={2022}
+}
+
+@article{paszke2017automatic,
+  title={Automatic differentiation in pytorch},
+  author={Paszke, Adam and Gross, Sam and Chintala, Soumith and Chanan, Gregory and Yang, Edward and DeVito, Zachary and Lin, Zeming and Desmaison, Alban and Antiga, Luca and Lerer, Adam},
+  year={2017}
+}

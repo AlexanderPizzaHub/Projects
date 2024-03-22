@@ -1,0 +1,20 @@
+{
+    "dataname":"1000points",
+    "expname":"AONN_t1",
+    "bw":100,
+    "dw":100,
+    "out_iter":50,
+    "inner_iter":[
+        400,
+        400,
+        400
+    ],
+    "stepsize":1,
+    "decay_rate":1.0,
+    "lastvy":0.025357421699007423,
+    "lastvu":1.999213381714018,
+    "walltime":1530.2857670783997,
+    "bestCost":24.279820421523084,
+    "bestValidation_y":0.02533732859052893,
+    "bestValidation_u":1.9925973974547309
+}

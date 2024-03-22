@@ -1,0 +1,19 @@
+{
+    "dataname":"1500points_oval",
+    "expname":"At5",
+    "bw":100,
+    "out_iter":20,
+    "inner_iter":[
+        1000,
+        1000,
+        1000
+    ],
+    "stepsize":1,
+    "decay_rate":1.0,
+    "timelist":[
+        56.154167890548706,
+        128.20125484466553
+    ],
+    "walltime":128.20125484466553,
+    "endouteriter":1
+}

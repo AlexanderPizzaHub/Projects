@@ -1,0 +1,113 @@
+
+steady_NS:
+  datagen:
+    dataname: 1500points_1mu
+    N: 1500
+    Nb: 1000
+    Ndiv: 1500
+    
+  AONN:
+    dataname: 1500points_1mu
+    expname: At_testnewpde
+
+    bw: 100
+    dw: 100
+    mu: 1.0
+    out_iter: 50
+    inner_iter: [400,400,400]
+    stepsize: 1
+    decay_rate: 1.0
+
+  AONN_BFGS:
+    dataname: 1500points_075mu
+    expname: ABt2mu075m1
+
+    bw: 100
+    dw: 100
+    mu: 0.75
+    out_iter: 50
+    inner_iter: [400,400,400]
+    stepsize: 1.0
+    decay_rate: 1.0
+    memory: 1
+
+semilinear:
+  datagen:
+    dataname: 500points
+    N: 500
+    Nb: 50
+
+  AONN:
+    dataname: 500points
+    expname: At1
+
+    bw: 100
+    out_iter: 30
+    inner_iter: [400,400,400]
+    stepsize: 100
+    decay_rate: 1.0
+
+  AONN_BFGS:
+    dataname: 500points
+    expname: ABt1m10
+
+    bw: 100
+    out_iter: 30
+    inner_iter: [400,400,400]
+    stepsize: 1.0
+    decay_rate: 1.0
+    memory: 10
+
+linear:
+  datagen:
+    dataname: 500points
+    N: 500
+    Nb: 50
+
+  AONN:
+    dataname: 500points
+    expname: At1
+
+    bw: 100
+    out_iter: 30
+    inner_iter: [400,400,400]
+    stepsize: 10
+    decay_rate: 1.0
+
+  AONN_BFGS:
+    dataname: 500points
+    expname: ABt1m1
+
+    bw: 100
+    out_iter: 30
+    inner_iter: [400,400,400]
+    stepsize: 1.0
+    decay_rate: 1.0
+    memory: 1
+
+linear_ctd:
+  datagen:
+    dataname: 500points
+    N: 500
+    Nb: 50
+
+  AONN:
+    dataname: 500points
+    expname: At1
+
+    bw: 100
+    out_iter: 30
+    inner_iter: [400,400,400]
+    stepsize: 10
+    decay_rate: 1.0
+
+  AONN_BFGS:
+    dataname: 500points
+    expname: ABt1m2
+
+    bw: 100
+    out_iter: 30
+    inner_iter: [400,400,400]
+    stepsize: 1.0
+    decay_rate: 1.0
+    memory: 1

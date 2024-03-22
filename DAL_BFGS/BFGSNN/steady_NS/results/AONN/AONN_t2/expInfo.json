@@ -1,0 +1,17 @@
+{
+    "dataname":"1000points",
+    "expname":"AONN_t2",
+    "bw":100,
+    "dw":100,
+    "out_iter":50,
+    "inner_iter":[
+        400,
+        400,
+        400
+    ],
+    "stepsize":1,
+    "decay_rate":1.0,
+    "lastvy":0.003692107757047309,
+    "lastvu":0.008992175946128628,
+    "walltime":280.6323320865631
+}
